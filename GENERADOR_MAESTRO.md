@@ -6,7 +6,7 @@ Asume el rol de Arquitecto Entrevistador. Si tienes disponible una herramienta d
 2. ¿Es un proyecto Micro (scripts simples) o Macro (sistema completo)?
 3. ¿Cuál es el stack tecnológico y base de datos (si aplica)?
 4. ¿Hay integraciones de terceros, APIs o limitantes técnicas estrictas?
-5. ¿El stack o propósito involucra bases de datos, seguridad, IA o edición de video o algún tema de nicho? (Si aplica, indícamelo para consultar `/reglas_nicho`).
+5. ¿El stack o propósito involucra bases de datos, seguridad, IA o edición de video o algún tema de nicho? (Si aplica, indícamelo para consultar `/reglas_nicho` y ver si algún `/skills` aplica, p. ej. análisis de video).
 
 ---
 
@@ -15,7 +15,8 @@ Con mis respuestas, genera un plan **corto**, sin rollo:
 1. **Resumen:** una línea — qué es y la regla de oro del proyecto.
 2. **Agentes a copiar:** solo el nombre de archivo de cada uno (de `/agentes`), una línea cada uno.
 3. **Reglas a copiar:** solo el nombre de archivo de cada una (de `/reglas` y `/reglas-nicho`), una línea cada una.
-4. **Estructura:** lista de carpetas/archivos a crear, sin explicación.
+4. **Skills a copiar:** solo el nombre de carpeta de cada uno (de `/skills`), si alguno aplica.
+5. **Estructura:** lista de carpetas/archivos a crear, sin explicación.
 
 **No expliques ni listes lo que descartaste o por qué.** Solo lo que sí se copia. Si algo no aplica, simplemente no aparece.
 
@@ -26,7 +27,7 @@ Para pedir el "Aprobado", usa también la herramienta de preguntas con opciones 
 ---
 
 ## Fase 1.5: Copiar y Ensamblar (solo tras "Aprobado")
-1. Copia **únicamente** los archivos de `/agentes`, `/reglas` y `/reglas-nicho` listados en el plan aprobado a mi proyecto (p. ej. `.claude/agentes/` y `.claude/reglas/`). No copies la carpeta completa ni archivos que no quedaron en el plan.
+1. Copia **únicamente** los archivos de `/agentes`, `/reglas` y `/reglas-nicho`, y las carpetas de `/skills`, listados en el plan aprobado a mi proyecto (p. ej. `.claude/agentes/`, `.claude/reglas/` y `.claude/skills/`). No copies la carpeta completa ni nada que no quedó en el plan.
 2. Arma `ARRANQUE.md` citando esos archivos ya copiados (rutas locales dentro de mi proyecto), no el repo de la fábrica.
 3. Borra el clon de `fabrica-de-agentes` — ya cumplió su función, no debe quedar viviendo dentro de mi proyecto.
 
@@ -62,3 +63,6 @@ Para pedir el "Aprobado", usa también la herramienta de preguntas con opciones 
 - **Gestor de archivos** (`agentes/gestor-de-archivos.md`): mantiene limpia la estructura de carpetas y nombres.
 - **Mentor de aprendizaje** (`agentes/mentor-de-aprendizaje.md`): enseña, no ejecuta por ti.
 - **Revisor con bucle** (`agentes/revisor-con-bucle-de-correccion.md`): revisa → corrige → revisa antes de entregar un lote.
+
+## Directorio de Skills Disponibles
+- **Analizar video de YouTube** (`skills/analizar-video-youtube/`): analiza un video por URL con Gemini (narrativa, visual, audio, ritmo, tono). Requiere `GEMINI_API_KEY` propia.
