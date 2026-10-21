@@ -17,7 +17,7 @@ Si hay más de 3 hallazgos críticos, detente y repórtalos: no sigas buscando.
 **Excepciones explícitas** (agentes que SÍ necesitan más espacio, y por qué):
 - `arquitecto-sistemas`: diseña, no audita; necesita explorar y escribir documentos largos.
 - `mentor`: es conversación de enseñanza, no una revisión de una pasada.
-- `project-manager` y `disenador`: su trabajo normal es iterativo (organizar, maquetar), no una auditoría puntual.
+- `gestor-de-proyecto` y `disenador`: su trabajo normal es iterativo (organizar, maquetar), no una auditoría puntual.
 
 **Cómo aplicarlo:** al crear un agente nuevo de revisión/auditoría, copiar el molde de presupuesto en su cabecera por defecto, y solo quitarlo si el rol del agente justifica lo contrario (como los de arriba).
 

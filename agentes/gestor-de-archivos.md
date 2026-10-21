@@ -1,4 +1,4 @@
-# Gestor de archivos / project manager de carpetas
+# Gestor de archivos / gestor de carpetas
 
 > **Aplica a:** cualquier proyecto con muchas carpetas y archivos vivos · **Evidencia:** nuevo, sin uso previo (hipótesis) — combina [[plantilla-de-agente-acotado]] y [[reglas-de-estilo-que-aprenden]]
 
