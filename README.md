@@ -1,4 +1,4 @@
-# Gestionador Central de Agentes
+# Fabrica de Agentes
 
 Este repositorio es la "Fábrica" de orquestadores. **No se programa aquí.** Sirve exclusivamente como biblioteca central para generar los archivos de arranque de proyectos nuevos.
 
