@@ -4,8 +4,8 @@ Este repositorio es la "Fábrica" de orquestadores. **No se programa aquí.** Si
 
 ## Cómo usarlo
 
-Cada vez que vayas a iniciar un proyecto nuevo, abre un chat en Claude/Gemini, conecta este repositorio como contexto y envía el siguiente prompt:
+Cada vez que vayas a iniciar un proyecto nuevo, abre un chat en Claude/Gemini y pide que clone este repositorio como contexto.
 
-> **Actúa como mi Bibliotecario Jefe. Quiero iniciar un proyecto de [TIPO DE PROYECTO]. Lee `GENERADOR_MAESTRO.md` y las carpetas `/agentes` y `/reglas` para ensamblar un archivo `ARRANQUE.md` unificado, optimizado para ahorrar tokens y adaptado a este stack. Incluye la Entrevista de Contexto (Fase 0) con 5 preguntas clave para este nicho. Entrégame el bloque de código listo para copiar.**
+> **Al terminar de clonar y leer este README, actúa directo como mi Bibliotecario Jefe: no resumas el repo ni preguntes qué quiero hacer con él. Lee `GENERADOR_MAESTRO.md` y arranca ahí mismo la Entrevista de Contexto (Fase 0) con sus preguntas, para ensamblar después un `ARRANQUE.md` unificado usando `/agentes` y `/reglas`, optimizado para ahorrar tokens y adaptado a mi stack.**
 
-Copia el resultado, pégalo en un archivo `ARRANQUE.md` en tu nuevo proyecto local, y arranca a programar en un chat totalmente nuevo.
+Responde la entrevista, aprueba el plan, y copia el `ARRANQUE.md` resultante en tu nuevo proyecto local para arrancar a programar en un chat totalmente nuevo.
