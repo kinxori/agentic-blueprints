@@ -7,7 +7,7 @@ Este repositorio es la "Fábrica" de orquestadores. **No se programa aquí.** Si
 Abre un chat nuevo en Claude/Gemini y pega este mensaje tal cual (no hace falta saber de terminal, el asistente clona el repo solo):
 
 ```
-Clona https://github.com/kinxori/fabrica-de-agentes en una carpeta aparte (no dentro de mi proyecto), úsalo como contexto, y al terminar de clonar y leer el README actúa directo como mi Bibliotecario Jefe sin resumir el repo ni preguntarme qué hacer: lee GENERADOR_MAESTRO.md y arranca ahí mismo la Fase 0, para después ensamblar un ARRANQUE.md con /agentes y /reglas, copiar solo lo elegido a mi proyecto y borrar el clon.
+Clona github.com/kinxori/fabrica-de-agentes aparte de mi proyecto, sin resumir ni preguntar lee GENERADOR_MAESTRO.md y arranca la Fase 0 para armar mi ARRANQUE.md, copia solo lo elegido a mi proyecto y borra el clon.
 ```
 
 Responde la entrevista, aprueba el plan, y deja que el asistente copie el `ARRANQUE.md` resultante a tu proyecto y borre el clon de la fábrica. Así tu proyecto nuevo arranca limpio, solo con lo que esa entrevista decidió que aplicaba — no con toda la biblioteca.
