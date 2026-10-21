@@ -11,11 +11,13 @@ Asume el rol de Arquitecto Entrevistador. Hazme únicamente estas 4 preguntas de
 ---
 
 ## Fase 1: Plan de Aprobación (Pausa Obligatoria)
-Con mis respuestas, genera un plan rápido que incluya:
-1. **Resumen:** Qué es y cuál es la regla de oro del proyecto.
-2. **Agentes a copiar:** lista exacta de archivos de `/agentes` que aplican (nombre de archivo, no categoría genérica).
-3. **Reglas a copiar:** lista exacta de archivos de `/reglas` y, si aplica el nicho, de `/reglas-nicho` que aplican.
-4. **Estructura:** Qué carpetas y archivos iniciales se van a crear.
+Con mis respuestas, genera un plan **corto**, sin rollo:
+1. **Resumen:** una línea — qué es y la regla de oro del proyecto.
+2. **Agentes a copiar:** solo el nombre de archivo de cada uno (de `/agentes`), una línea cada uno.
+3. **Reglas a copiar:** solo el nombre de archivo de cada una (de `/reglas` y `/reglas-nicho`), una línea cada una.
+4. **Estructura:** lista de carpetas/archivos a crear, sin explicación.
+
+**No expliques ni listes lo que descartaste o por qué.** Solo lo que sí se copia. Si algo no aplica, simplemente no aparece.
 
 *Muéstrame este plan y espera a que te diga "Aprobado" antes de crear o copiar cualquier archivo.*
 
