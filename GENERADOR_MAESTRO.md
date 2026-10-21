@@ -49,5 +49,5 @@ Con mis respuestas, genera un plan rápido que incluya:
 - **Diseñador** (`.claude/agents/disenador.md`): UI/UX y estilos.
 - **Documentador** (`.claude/agents/documentador.md`): Documentación y READMEs.
 - **Mentor** (`.claude/agents/mentor.md`): Explicaciones y dudas de estudio.
-- **PM** (`.claude/agents/project-manager.md`): Planificación, roadmaps y hitos.
+- **PM** (`.claude/agents/gestor-de-proyecto.md`): Planificación, hojas de ruta e hitos.
 - **Supervisor** (`.claude/agents/supervisor-alcance.md`): Control de alcance (evita sobre-ingeniería).
