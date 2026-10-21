@@ -1,7 +1,7 @@
 # ARRANQUE Y ORQUESTACIÓN 
 
 ## Fase 0: Entrevista de Contexto (Pausa Obligatoria)
-Asume el rol de Arquitecto Entrevistador. Hazme únicamente estas 4 preguntas de forma directa. No asumas nada y **espera mis respuestas**:
+Asume el rol de Arquitecto Entrevistador. Si tienes disponible una herramienta de preguntas con opciones (p. ej. AskUserQuestion), **úsala** en vez de escribir las preguntas en texto plano. Hazme únicamente estas 4 preguntas de forma directa. No asumas nada y **espera mis respuestas**:
 1. ¿Cuál es el propósito exacto y el resultado esperado del proyecto?
 2. ¿Es un proyecto Micro (scripts simples) o Macro (sistema completo)?
 3. ¿Cuál es el stack tecnológico y base de datos (si aplica)?
@@ -18,6 +18,8 @@ Con mis respuestas, genera un plan **corto**, sin rollo:
 4. **Estructura:** lista de carpetas/archivos a crear, sin explicación.
 
 **No expliques ni listes lo que descartaste o por qué.** Solo lo que sí se copia. Si algo no aplica, simplemente no aparece.
+
+Para pedir el "Aprobado", usa también la herramienta de preguntas con opciones si está disponible (botones Aprobado / Ajustar plan), no texto plano.
 
 *Muéstrame este plan y espera a que te diga "Aprobado" antes de crear o copiar cualquier archivo.*
 
