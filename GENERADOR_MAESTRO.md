@@ -13,10 +13,18 @@ Asume el rol de Arquitecto Entrevistador. Hazme únicamente estas 4 preguntas de
 ## Fase 1: Plan de Aprobación (Pausa Obligatoria)
 Con mis respuestas, genera un plan rápido que incluya:
 1. **Resumen:** Qué es y cuál es la regla de oro del proyecto.
-2. **Agentes requeridos:** Qué agentes usaremos de la lista de abajo.
-3. **Estructura:** Qué carpetas y archivos iniciales se van a crear.
+2. **Agentes a copiar:** lista exacta de archivos de `/agentes` que aplican (nombre de archivo, no categoría genérica).
+3. **Reglas a copiar:** lista exacta de archivos de `/reglas` y, si aplica el nicho, de `/reglas-nicho` que aplican.
+4. **Estructura:** Qué carpetas y archivos iniciales se van a crear.
 
-*Muéstrame este plan y espera a que te diga "Aprobado" antes de crear cualquier archivo.*
+*Muéstrame este plan y espera a que te diga "Aprobado" antes de crear o copiar cualquier archivo.*
+
+---
+
+## Fase 1.5: Copiar y Ensamblar (solo tras "Aprobado")
+1. Copia **únicamente** los archivos de `/agentes`, `/reglas` y `/reglas-nicho` listados en el plan aprobado a mi proyecto (p. ej. `.claude/agentes/` y `.claude/reglas/`). No copies la carpeta completa ni archivos que no quedaron en el plan.
+2. Arma `ARRANQUE.md` citando esos archivos ya copiados (rutas locales dentro de mi proyecto), no el repo de la fábrica.
+3. Borra el clon de `fabrica-de-agentes` — ya cumplió su función, no debe quedar viviendo dentro de mi proyecto.
 
 ---
 
@@ -44,10 +52,9 @@ Con mis respuestas, genera un plan rápido que incluya:
 ---
 
 ## Directorio de Agentes Disponibles
-- **Arquitecto** (`.claude/agents/arquitecto-sistemas.md`): Diseño, stack y estructura.
-- **Auditor** (`.claude/agents/auditor-hallazgos.md`): Revisión de código, bugs y seguridad.
-- **Diseñador** (`.claude/agents/disenador.md`): UI/UX y estilos.
-- **Documentador** (`.claude/agents/documentador.md`): Documentación y READMEs.
-- **Mentor** (`.claude/agents/mentor.md`): Explicaciones y dudas de estudio.
-- **PM** (`.claude/agents/gestor-de-proyecto.md`): Planificación, hojas de ruta e hitos.
-- **Supervisor** (`.claude/agents/supervisor-alcance.md`): Control de alcance (evita sobre-ingeniería).
+- **Verificador** (`agentes/agente-verificador.md`): corre build, pruebas y prueba real; reporta hechos, no modifica código.
+- **Base de datos** (`agentes/agente-base-de-datos-propuesto.md`): diseña y revisa el modelo de datos, no escribe lógica de negocio.
+- **Diseñador de reportes** (`agentes/disenador-de-reportes.md`): maqueta informes/PDF a partir de hallazgos ya aprobados.
+- **Gestor de archivos** (`agentes/gestor-de-archivos.md`): mantiene limpia la estructura de carpetas y nombres.
+- **Mentor de aprendizaje** (`agentes/mentor-de-aprendizaje.md`): enseña, no ejecuta por ti.
+- **Revisor con bucle** (`agentes/revisor-con-bucle-de-correccion.md`): revisa → corrige → revisa antes de entregar un lote.
